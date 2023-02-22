@@ -27,3 +27,7 @@ jobs:
           name: artifacts
           path: report.html
       
+      - name: Sleep
+        run: |
+          sleep 5m
+        shell: bash
